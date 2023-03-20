@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheeee</title>
+</head>
+<body>
+    <h1>Esta web a sido bloqueada por Lite.</h1>
+    <p id="mot">Motivo: ?</p>
+    <p>Si crees de que esta web no contiene ese contenido, desactiva la extension y vuelvela a visitar. Si es un mensaje o un correo, denuncialo.</p>
+    <script>
+        let motu = document.location.hash.slice(3);
+        document.getElementById("mot").innerText = "Motivo: " + motu;
+    </script>
+</body>
+</html>
