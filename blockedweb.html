@@ -11,7 +11,7 @@
     <p id="mot">Motivo: ?</p>
     <p>Si crees de que esta web no contiene ese contenido, desactiva la extension y vuelvela a visitar. Si es un mensaje o un correo, denuncialo.</p>
     <script>
-        let motu = document.location.hash.slice(3);
+        let motu = document.location.hash.slice(1);
         document.getElementById("mot").innerText = "Motivo: " + motu;
     </script>
 </body>
